@@ -4,7 +4,7 @@ A basic latex template primarily designed for Departmental Exams at
 VU, though this is a general enough template for most papers.
 
 ### Instructions
-- Figure files go in the `img` directory
+- Figures should be kept in the `img` directory
 - The tex files are contained in the `tex` directory and are separated
   by section
 - bibtex entries are contained in `library.bib`.  The easiest way to

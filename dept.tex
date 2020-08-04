@@ -1,0 +1,37 @@
+\documentclass[journal=jpcbfk,manuscript=article]{achemso}
+
+\usepackage{amsmath}
+\usepackage{comment}
+\usepackage[capitalise]{cleveref}
+\usepackage[exponent-product = \times]{siunitx}
+\usepackage[version=3]{mhchem} % Formula subscripts using \ce{}
+\usepackage[T1]{fontenc}       % Use modern font encodings
+
+\author{Your Name}
+\affiliation[Vanderbilt University]{
+    Department of Chemical and Biomolecular Engineering,
+    Vanderbilt University,
+    Nashville, TN, USA}
+\alsoaffiliation[MuMS]{
+    Multiscale Modeling and Simulation Center,
+    Vanderbilt University,
+    Nashville, TN, USA}
+
+\title[Departmental Exam]{Departmental Title}
+
+\begin{document}
+
+\input{tex/abstract.tex}
+\input{tex/introduction.tex}
+\newpage
+\input{tex/methods.tex}
+\newpage
+\input{tex/results.tex}
+\newpage
+\input{tex/conclusions.tex}
+\newpage
+
+\bibliographystyle{achemso}
+\bibliography{library.bib}
+
+\end{document}

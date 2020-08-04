@@ -1,4 +1,4 @@
-/Library/TeX/texbin/pdflatex solvent.tex
+/Library/TeX/texbin/pdflatex dept.tex
 
 /Library/TeX/texbin/makeindex dept.nlo -s nomencl.ist -o dept.nls
 /Library/TeX/texbin/pdflatex dept.tex
