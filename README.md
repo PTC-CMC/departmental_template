@@ -3,6 +3,10 @@
 A basic latex template primarily designed for Departmental Exams at
 VU, though this is a general enough template for most papers.
 
+### Installing Latex
+Before compiling your document, a Latex distribution should be
+installed.  See link for distributions for all OS: https://www.latex-project.org/get/#tex-distributions
+
 ### Instructions
 - Figures should be kept in the `img` directory
 - The tex files are contained in the `tex` directory and are separated
